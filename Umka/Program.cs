@@ -1,8 +1,9 @@
+using BusinessLogic.Messages.Services;
 using Zitadel.Credentials;
 using Zitadel.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
-
+builder.Services.AddSignalR();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
@@ -54,6 +55,11 @@ app.UseAuthorization();
 
 app.UseEndpoints(
     endpoints => { endpoints.MapControllers(); });
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapHub<NotificationHub>("/NotificationHub");
+});
 
 await app.RunAsync();
 
