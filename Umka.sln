@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Umka", "Umka\Umka.csproj", "{0B2CA29C-9033-418D-A086-30E257AAB426}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Umka", "Umka\Umka.csproj", "{0B2CA29C-9033-418D-A086-30E257AAB426}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogic", "BusinessLogic\BusinessLogic.csproj", "{1F5F5B4E-E0BE-4B85-A05F-7E46640B6969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{1EEA81AF-1928-4F79-8D61-0ED7F98EB7B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0B2CA29C-9033-418D-A086-30E257AAB426}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B2CA29C-9033-418D-A086-30E257AAB426}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B2CA29C-9033-418D-A086-30E257AAB426}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F5F5B4E-E0BE-4B85-A05F-7E46640B6969}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F5F5B4E-E0BE-4B85-A05F-7E46640B6969}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F5F5B4E-E0BE-4B85-A05F-7E46640B6969}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F5F5B4E-E0BE-4B85-A05F-7E46640B6969}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EEA81AF-1928-4F79-8D61-0ED7F98EB7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EEA81AF-1928-4F79-8D61-0ED7F98EB7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EEA81AF-1928-4F79-8D61-0ED7F98EB7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EEA81AF-1928-4F79-8D61-0ED7F98EB7B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

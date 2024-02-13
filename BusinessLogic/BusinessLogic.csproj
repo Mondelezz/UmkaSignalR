@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Messages\Models\" />
+    <Folder Include="Messages\Interfaces\" />
+    <Folder Include="UsersHandle\Interfaces\" />
+    <Folder Include="UsersHandle\Models\" />
+    <Folder Include="UsersHandle\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="8.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="1.1.0" />
+  </ItemGroup>
+
 </Project>
