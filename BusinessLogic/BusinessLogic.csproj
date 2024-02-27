@@ -7,11 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="UsersHandle\**" />
+    <EmbeddedResource Remove="UsersHandle\**" />
+    <None Remove="UsersHandle\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Messages\Models\" />
     <Folder Include="Messages\Interfaces\" />
-    <Folder Include="UsersHandle\Interfaces\" />
-    <Folder Include="UsersHandle\Models\" />
-    <Folder Include="UsersHandle\Services\" />
   </ItemGroup>
 
   <ItemGroup>
