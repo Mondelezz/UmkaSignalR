@@ -12,4 +12,8 @@
     <None Remove="Db\**" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Video Conference\Models\" />
+  </ItemGroup>
+
 </Project>

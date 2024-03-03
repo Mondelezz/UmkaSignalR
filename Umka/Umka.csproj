@@ -18,4 +18,8 @@
     <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Video Conference\Models\" />
+  </ItemGroup>
+
 </Project>

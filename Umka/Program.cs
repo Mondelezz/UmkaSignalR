@@ -55,7 +55,6 @@ app.UseAuthorization();
 
 app.MapControllers();
 
-app.MapHub<NotificationHub>("/chat");
 
 await app.RunAsync();
 
