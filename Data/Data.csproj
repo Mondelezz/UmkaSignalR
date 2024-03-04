@@ -16,4 +16,8 @@
     <Folder Include="Video Conference\Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="SIPSorcery" Version="6.2.1" />
+  </ItemGroup>
+
 </Project>

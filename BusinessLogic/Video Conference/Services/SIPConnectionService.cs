@@ -39,6 +39,8 @@ namespace BusinessLogic.Video_Conference.Services
                 Console.WriteLine($"Response received {localSIPEndPoint}<-{remoteEndPoint}: {sipResponse.ShortDescription}");
                 return Task.CompletedTask;
             };
+
+            SIPRequest sipRequest = sipTransport.     
         }
     }
 }

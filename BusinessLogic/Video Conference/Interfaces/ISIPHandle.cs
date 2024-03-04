@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace BusinessLogic.Video_Conference.Interfaces
 {
-    internal interface ISIPHandle
+    public interface ISIPHandle
     {
+        public Task SIPInitialization();
     }
 }
